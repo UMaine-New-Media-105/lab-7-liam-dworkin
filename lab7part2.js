@@ -56,6 +56,8 @@ function draw() {
 
 //could not get a full gradient across yet but there is a pattern of each row/grid of the looped shapes with a partial gradient in cell form
 
+//add in R, G, B to both this and the 'starBuilder' function. Call back the RGB value and offset using translate in a nested loop (notes for my future self)
+
 function chooseSprite(spriteName, spriteX, spriteY, r, g, b) {
   if (spriteName == "star1") {
     push();
